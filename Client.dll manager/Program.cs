@@ -20,7 +20,7 @@ namespace Client.dll_manager
         {
 
             if (Dota2Directory == null)
-                Dota2Directory = @"C:\Program Files (x86)\Steam\steamapps\common\dota 2 beta";
+                Dota2Directory = @"D:\Online Games\Steam\steamapps\common\dota 2 beta";
 
             Win32Path = Dota2Directory + @"\game\dota\bin\win32\client.dll";
             Win64Path = Dota2Directory + @"\game\dota\bin\win64\client.dll";
